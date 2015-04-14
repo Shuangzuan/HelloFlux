@@ -30,7 +30,7 @@ static BOOL isYES(NSNumber *number) {
 #pragma mark - Public APIs
 
 - (NSString *)registerWithCallback:(DispatcherCallback)callback {
-    NSString *token = [NSString stringWithFormat:@"%@%lu", prefix, lastID++];
+    NSString *token = [NSString stringWithFormat:@"%@%lu", prefix, (unsigned long)lastID++];
     self.callbacks[token] = [callback copy];
     return token;
 }

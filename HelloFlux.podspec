@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "HelloFlux"
   s.version      = "0.0.1"
-  s.summary      = "A short description of HelloFlux."
+  s.summary      = "Application Architecture for Building User Interfaces http://facebook.github.io/flux/"
   s.description  = <<-DESC
                    A longer description of HelloFlux in Markdown format.
 
